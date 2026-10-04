@@ -19,5 +19,5 @@ echo ============================================
 echo.
 
 rem 延迟 2 秒后自动打开浏览器（等待服务器就绪）
-start "" cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:12415"
-python -m http.server 12415
+start "" cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:8080"
+python -m http.server 8080
