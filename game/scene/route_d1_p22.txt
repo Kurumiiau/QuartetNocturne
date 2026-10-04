@@ -1,0 +1,5 @@
+changeFigure:none -id=ds;
+unlockCg:cg_d1_two_bowls.webp -name=两碗面 -series=DeepSeek 线 -next;
+changeBg:cg_d1_two_bowls.webp -next;
+　 -clear;
+changeScene:route_d2.txt;

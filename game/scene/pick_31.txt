@@ -1,0 +1,17 @@
+Gemini:那我就不挡了。;
+choose:「以后也别挡。」:pick_31_c31_a|「那你现在想说什么？」:pick_31_c31_b|「你以前被追过吗？」:pick_31_c31_c;
+;
+label:pick_31_c31_a;
+setVar:trust=trust+2;
+jumpLabel:pick_31_c31_after;
+;
+label:pick_31_c31_b;
+setVar:trust=trust+3;
+jumpLabel:pick_31_c31_after;
+;
+label:pick_31_c31_c;
+setVar:trust=trust+2;
+setVar:aff_gemini=aff_gemini+1;
+;
+label:pick_31_c31_after;
+changeScene:route_g5_p31.txt;

@@ -1,0 +1,10 @@
+changeFigure:gemini/01_smile_wave.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/02_wink_v.webp -id=gm -next;
+Gemini:我考虑一下。;
+她考虑了大概两秒，然后挪了过来。 -clear;
+changeFigure:none -id=gm;
+unlockCg:cg_g1_windowsill.webp -name=窗台 -series=Gemini 线 -next;
+changeBg:cg_g1_windowsill.webp -next;
+　 -clear;
+changeScene:route_g2.txt;

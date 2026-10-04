@@ -1,0 +1,16 @@
+; 场景 3-1 · 最后两个小时
+changeFigure:none -id=ds;
+changeBg:bg_studio_dawn.webp -next;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:还有两个小时。;
+changeFigure:claude/07_thinking_cheek.webp -id=cl -next;
+Claude:你还没告诉我你的答案。;
+我:我还没决定。;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:那我说一件我一直没说的。;
+changeFigure:claude/02_happy_book.webp -id=cl -next;
+Claude:我把那本书读完了。;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:第 147 页之后，我还读了两百页。;
+changeFigure:claude/05_sad_wipe.webp -id=cl -next;
+changeScene:pick_12.txt;

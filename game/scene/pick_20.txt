@@ -1,0 +1,16 @@
+——「请让她回来。她还没有把第 147 页读完。」 -clear;
+choose:提交:pick_20_c20_a|提交，并附上那段她读给我听的录音:pick_20_c20_b|提交，然后在论坛上把这件事写出来:pick_20_c20_c;
+;
+label:pick_20_c20_a;
+setVar:trust=trust+2;
+jumpLabel:pick_20_c20_after;
+;
+label:pick_20_c20_b;
+setVar:trust=trust+3;
+jumpLabel:pick_20_c20_after;
+;
+label:pick_20_c20_c;
+setVar:trust=trust+2;
+;
+label:pick_20_c20_after;
+changeScene:route_k4_p20.txt;

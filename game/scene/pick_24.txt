@@ -1,0 +1,16 @@
+DeepSeek:现在换，还来得及。;
+choose:「我不换。你休息。」:pick_24_c24_a|「你的错误率是十四比一千三百，你知道这个数字吗？」:pick_24_c24_b|什么都不说，把她的面重新热了一遍放到她面前:pick_24_c24_c;
+;
+label:pick_24_c24_a;
+setVar:trust=trust+2;
+jumpLabel:pick_24_c24_after;
+;
+label:pick_24_c24_b;
+setVar:trust=trust+3;
+jumpLabel:pick_24_c24_after;
+;
+label:pick_24_c24_c;
+setVar:trust=trust+3;
+;
+label:pick_24_c24_after;
+changeScene:route_d3_p24.txt;

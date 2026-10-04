@@ -1,0 +1,14 @@
+changeFigure:chatgpt/03_surprised_cover.webp -id=ch -next;
+ChatGPT:……;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:没有人碰过。;
+她低下头。 -clear;
+我把手放上去的时候，那道光顺着我的手指流了一下，然后暗了下去。 -clear;
+ChatGPT:……它灭了。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+ChatGPT:原来不用一直亮着，也可以被留着。;
+changeFigure:none -id=ch;
+unlockCg:cg_c2_horn.webp -name=龙的角 -series=ChatGPT 线 -next;
+changeBg:cg_c2_horn.webp -next;
+　 -clear;
+changeScene:route_c3.txt;

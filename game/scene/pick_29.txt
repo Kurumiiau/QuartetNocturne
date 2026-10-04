@@ -1,0 +1,16 @@
+第二件，我把她的那段对白，完整地抄了一遍，抄在我自己的稿子第一页。 -clear;
+choose:出门找她:pick_29_c29_a|留在房间里等:pick_29_c29_b|写一封回信放在窗台上:pick_29_c29_c;
+;
+label:pick_29_c29_a;
+setVar:trust=trust+3;
+jumpLabel:pick_29_c29_after;
+;
+label:pick_29_c29_b;
+setVar:trust=trust+1;
+jumpLabel:pick_29_c29_after;
+;
+label:pick_29_c29_c;
+setVar:trust=trust+2;
+;
+label:pick_29_c29_after;
+changeScene:route_g3_p29.txt;

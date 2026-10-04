@@ -1,0 +1,17 @@
+DeepSeek:这个你会想起来。;
+choose:「我会想起来。这是你补的。」:pick_23_c23_a|「那我以后只用这一个。」:pick_23_c23_b|「你搞坏的那两次，是怎么回事？」:pick_23_c23_c;
+;
+label:pick_23_c23_a;
+setVar:trust=trust+2;
+jumpLabel:pick_23_c23_after;
+;
+label:pick_23_c23_b;
+setVar:trust=trust+3;
+jumpLabel:pick_23_c23_after;
+;
+label:pick_23_c23_c;
+setVar:trust=trust+2;
+setVar:aff_deepseek=aff_deepseek+1;
+;
+label:pick_23_c23_after;
+changeScene:route_d2_p23.txt;

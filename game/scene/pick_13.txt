@@ -1,0 +1,17 @@
+ChatGPT:我从来没有被问过"我想做什么"。;
+choose:「那就慢慢想。写到明天也行。」:pick_13_c13_a|「那你先写一个'我不知道'。」:pick_13_c13_b|「不用写。你说，我记。」:pick_13_c13_c;
+;
+label:pick_13_c13_a;
+setVar:trust=trust+1;
+jumpLabel:pick_13_c13_after;
+;
+label:pick_13_c13_b;
+setVar:trust=trust+2;
+jumpLabel:pick_13_c13_after;
+;
+label:pick_13_c13_c;
+setVar:trust=trust+2;
+setVar:aff_chatgpt=aff_chatgpt+1;
+;
+label:pick_13_c13_after;
+changeScene:route_c1_p13.txt;

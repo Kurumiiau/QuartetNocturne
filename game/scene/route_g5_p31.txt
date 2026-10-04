@@ -1,0 +1,13 @@
+changeFigure:gemini/05_sad_wipe.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:被追过。;
+changeFigure:gemini/08_helpless_shrug.webp -id=gm -next;
+Gemini:但都是来抓我回去干活的。;
+changeFigure:gemini/06_shy_hair.webp -id=gm -next;
+Gemini:你是第一个，不带活来的。;
+changeFigure:none -id=gm;
+unlockCg:cg_g5_no_hissing.webp -name=不哈气的猫 -series=Gemini 线 -next;
+changeBg:cg_g5_no_hissing.webp -next;
+　 -clear;
+changeScene:route_g6.txt;

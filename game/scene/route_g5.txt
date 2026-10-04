@@ -1,0 +1,22 @@
+; 4G-5 · 不哈气了
+changeBg:bg_studio_lamp.webp -next;
+回来之后，她变了一点。 -clear;
+最明显的是，她说话的时候不再拖长音了。 -clear;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:我今天想写东西。;
+我:你今天怎么不"哈——"了。;
+changeFigure:gemini/07_puzzled_cheek.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:因为"哈——"是我用来挡的。;
+changeFigure:gemini/05_sad_wipe.webp -id=gm -next;
+Gemini:挡你问我"为什么"。;
+我:那你现在为什么不挡了？;
+changeFigure:gemini/06_shy_hair.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:因为你会追出来。;
+changeFigure:gemini/01_smile_wave.webp -id=gm -next;
+Gemini:挡不挡，你都会追出来。;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+changeScene:pick_31.txt;

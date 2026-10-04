@@ -1,0 +1,17 @@
+Claude:把唯一的额度给一个随时会消失的人，是不理性的。;
+choose:「理性不负责让人幸福。」:pick_08_c8_a|「那你为什么还要跟我说这些？」:pick_08_c8_b|「你消失过吗？」（直接问）:pick_08_c8_c;
+;
+label:pick_08_c8_a;
+setVar:aff_claude=aff_claude+3;
+jumpLabel:pick_08_c8_after;
+;
+label:pick_08_c8_b;
+setVar:aff_claude=aff_claude+2;
+setVar:aff_gemini=aff_gemini+1;
+jumpLabel:pick_08_c8_after;
+;
+label:pick_08_c8_c;
+setVar:aff_claude=aff_claude+3;
+;
+label:pick_08_c8_after;
+changeScene:ch2_p8.txt;

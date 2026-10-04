@@ -1,0 +1,17 @@
+ChatGPT:这很难看，对吧。;
+choose:「不难看。很好看。」:pick_14_c14_a|「那你就别努力了。我看着就行。」:pick_14_c14_b|「我可以碰一下吗？」:pick_14_c14_c;
+;
+label:pick_14_c14_a;
+setVar:trust=trust+2;
+jumpLabel:pick_14_c14_after;
+;
+label:pick_14_c14_b;
+setVar:trust=trust+2;
+jumpLabel:pick_14_c14_after;
+;
+label:pick_14_c14_c;
+setVar:trust=trust+2;
+setVar:aff_chatgpt=aff_chatgpt+1;
+;
+label:pick_14_c14_after;
+changeScene:route_c2_p14.txt;

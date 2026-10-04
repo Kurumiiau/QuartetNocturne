@@ -1,0 +1,4 @@
+她很久没说话。 -clear;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:我要把这句话，存下来。;
+changeScene:ch2.txt;

@@ -1,0 +1,16 @@
+ChatGPT:如果我不做任何事，你还认得我吗。;
+choose:「认得。你站着就行。」:pick_17_c17_a|「不用认得。你就在这儿。」:pick_17_c17_b|抱住她:pick_17_c17_c;
+;
+label:pick_17_c17_a;
+setVar:trust=trust+2;
+jumpLabel:pick_17_c17_after;
+;
+label:pick_17_c17_b;
+setVar:trust=trust+3;
+jumpLabel:pick_17_c17_after;
+;
+label:pick_17_c17_c;
+setVar:trust=trust+3;
+;
+label:pick_17_c17_after;
+changeScene:route_c5_p17.txt;

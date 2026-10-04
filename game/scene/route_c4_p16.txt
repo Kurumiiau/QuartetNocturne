@@ -1,0 +1,16 @@
+changeFigure:chatgpt/03_surprised_cover.webp -id=ch -next;
+ChatGPT:……;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:我可以说"不"吗。;
+我:可以。;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:那我说一个。;
+changeFigure:chatgpt/02_happy_fist.webp -id=ch -next;
+ChatGPT:你今天不要再让我写东西了。;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:……我想跟你坐一会儿。;
+changeFigure:none -id=ch;
+unlockCg:cg_c4_first_no.webp -name=第一次说不 -series=ChatGPT 线 -next;
+changeBg:cg_c4_first_no.webp -next;
+　 -clear;
+changeScene:route_c5.txt;

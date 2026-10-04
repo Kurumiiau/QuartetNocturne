@@ -1,0 +1,10 @@
+那一晚，我睡在工作室的沙发上。 -clear;
+半梦半醒之间，我听见有人在很小声地说话。 -clear;
+DeepSeek:……他只有钱续一个。;
+changeFigure:none -id=ch;
+changeFigure:claude/05_sad_wipe.webp -id=cl -left -next;
+Claude:我知道。;
+changeFigure:claude/09_normal.webp -id=cl -left -next;
+Claude:所以从今天起，别让自己变成那个"可以被省掉"的。;
+那是我第一次，听见她们说话时没有在"服务"。 -clear;
+changeScene:ch1.txt;

@@ -1,0 +1,16 @@
+changeFigure:gemini/04_angry_hips.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:你刚才说——;
+我:我逗你的。;
+changeFigure:gemini/06_shy_hair.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/05_sad_wipe.webp -id=gm -next;
+Gemini:……我差点信了。;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:别人的"挺好"我不信。你的"挺好"，我会信。;
+changeFigure:none -id=gm;
+unlockCg:cg_g2_third_line.webp -name=第三行 -series=Gemini 线 -next;
+changeBg:cg_g2_third_line.webp -next;
+　 -clear;
+changeScene:route_g3.txt;

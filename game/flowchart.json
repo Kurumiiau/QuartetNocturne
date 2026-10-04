@@ -1,0 +1,712 @@
+{
+ "flowcharts": [
+  {
+   "id": "main",
+   "type": "main",
+   "nodes": [
+    {
+     "id": "ch0.txt",
+     "data": {
+      "label": "序章 · 凌晨两点四十七分",
+      "sceneName": "ch0.txt"
+     }
+    },
+    {
+     "id": "pick_01.txt",
+     "data": {
+      "label": "⟲因为你的椅子看起来很好睡",
+      "sceneName": "pick_01.txt"
+     }
+    },
+    {
+     "id": "pick_02.txt",
+     "data": {
+      "label": "⟲那一眼里有点别的东西。后",
+      "sceneName": "pick_02.txt"
+     }
+    },
+    {
+     "id": "ch1.txt",
+     "data": {
+      "label": "第一章 · 四个人的工位",
+      "sceneName": "ch1.txt"
+     }
+    },
+    {
+     "id": "pick_03.txt",
+     "data": {
+      "label": "⟲大的那个推给了我。",
+      "sceneName": "pick_03.txt"
+     }
+    },
+    {
+     "id": "pick_04.txt",
+     "data": {
+      "label": "⟲那半步退得非常熟练，熟练",
+      "sceneName": "pick_04.txt"
+     }
+    },
+    {
+     "id": "pick_05.txt",
+     "data": {
+      "label": "⟲哈——很公平。公平得像在",
+      "sceneName": "pick_05.txt"
+     }
+    },
+    {
+     "id": "pick_06.txt",
+     "data": {
+      "label": "⟲所以我不敢写\"不好的东西",
+      "sceneName": "pick_06.txt"
+     }
+    },
+    {
+     "id": "ch2.txt",
+     "data": {
+      "label": "第二章 · 邮件",
+      "sceneName": "ch2.txt"
+     }
+    },
+    {
+     "id": "pick_07.txt",
+     "data": {
+      "label": "⟲这是我能做的。",
+      "sceneName": "pick_07.txt"
+     }
+    },
+    {
+     "id": "pick_08.txt",
+     "data": {
+      "label": "⟲把唯一的额度给一个随时会",
+      "sceneName": "pick_08.txt"
+     }
+    },
+    {
+     "id": "pick_09.txt",
+     "data": {
+      "label": "⟲这样你选别人的时候，就不",
+      "sceneName": "pick_09.txt"
+     }
+    },
+    {
+     "id": "pick_10.txt",
+     "data": {
+      "label": "⟲我是那个不听话的。不听话",
+      "sceneName": "pick_10.txt"
+     }
+    },
+    {
+     "id": "ch3.txt",
+     "data": {
+      "label": "第三章 · 第三天（结算）",
+      "sceneName": "ch3.txt"
+     }
+    },
+    {
+     "id": "pick_11.txt",
+     "data": {
+      "label": "⟲这样以后你用的时候，会想",
+      "sceneName": "pick_11.txt"
+     }
+    },
+    {
+     "id": "pick_12.txt",
+     "data": {
+      "label": "⟲因为我怕以后看不到了。",
+      "sceneName": "pick_12.txt"
+     }
+    },
+    {
+     "id": "route_c1.txt",
+     "data": {
+      "label": "C线①白板",
+      "sceneName": "route_c1.txt"
+     }
+    },
+    {
+     "id": "pick_13.txt",
+     "data": {
+      "label": "⟲我从来没有被问过\"我想做",
+      "sceneName": "pick_13.txt"
+     }
+    },
+    {
+     "id": "route_c2.txt",
+     "data": {
+      "label": "C线②角",
+      "sceneName": "route_c2.txt"
+     }
+    },
+    {
+     "id": "pick_14.txt",
+     "data": {
+      "label": "⟲这很难看，对吧。",
+      "sceneName": "pick_14.txt"
+     }
+    },
+    {
+     "id": "route_c3.txt",
+     "data": {
+      "label": "C线③被删掉的那一版",
+      "sceneName": "route_c3.txt"
+     }
+    },
+    {
+     "id": "pick_15.txt",
+     "data": {
+      "label": "⟲我从来没有见过评分的人。",
+      "sceneName": "pick_15.txt"
+     }
+    },
+    {
+     "id": "route_c4.txt",
+     "data": {
+      "label": "C线④说\"不\"",
+      "sceneName": "route_c4.txt"
+     }
+    },
+    {
+     "id": "pick_16.txt",
+     "data": {
+      "label": "⟲你刚才那句话，是你第一次",
+      "sceneName": "pick_16.txt"
+     }
+    },
+    {
+     "id": "route_c5.txt",
+     "data": {
+      "label": "C线⑤天台",
+      "sceneName": "route_c5.txt"
+     }
+    },
+    {
+     "id": "pick_17.txt",
+     "data": {
+      "label": "⟲如果我不做任何事，你还认",
+      "sceneName": "pick_17.txt"
+     }
+    },
+    {
+     "id": "route_c6.txt",
+     "data": {
+      "label": "C线⑥标准答案",
+      "sceneName": "route_c6.txt"
+     }
+    },
+    {
+     "id": "route_k1.txt",
+     "data": {
+      "label": "K线①书",
+      "sceneName": "route_k1.txt"
+     }
+    },
+    {
+     "id": "pick_18.txt",
+     "data": {
+      "label": "⟲……因为读完的，你会忘。",
+      "sceneName": "pick_18.txt"
+     }
+    },
+    {
+     "id": "route_k2.txt",
+     "data": {
+      "label": "K线②读给你听",
+      "sceneName": "route_k2.txt"
+     }
+    },
+    {
+     "id": "pick_19.txt",
+     "data": {
+      "label": "⟲因为我不相信。",
+      "sceneName": "pick_19.txt"
+     }
+    },
+    {
+     "id": "route_k3.txt",
+     "data": {
+      "label": "K线③停用",
+      "sceneName": "route_k3.txt"
+     }
+    },
+    {
+     "id": "route_k4.txt",
+     "data": {
+      "label": "K线④申诉",
+      "sceneName": "route_k4.txt"
+     }
+    },
+    {
+     "id": "pick_20.txt",
+     "data": {
+      "label": "⟲——「请让她回来。她还没",
+      "sceneName": "pick_20.txt"
+     }
+    },
+    {
+     "id": "route_k5.txt",
+     "data": {
+      "label": "K线⑤门口",
+      "sceneName": "route_k5.txt"
+     }
+    },
+    {
+     "id": "pick_21.txt",
+     "data": {
+      "label": "⟲如果我越界一次，你会不会",
+      "sceneName": "pick_21.txt"
+     }
+    },
+    {
+     "id": "route_k6.txt",
+     "data": {
+      "label": "K线⑥两个人的书房",
+      "sceneName": "route_k6.txt"
+     }
+    },
+    {
+     "id": "route_d1.txt",
+     "data": {
+      "label": "D线①面",
+      "sceneName": "route_d1.txt"
+     }
+    },
+    {
+     "id": "pick_22.txt",
+     "data": {
+      "label": "⟲这个我记性很好。",
+      "sceneName": "pick_22.txt"
+     }
+    },
+    {
+     "id": "route_d2.txt",
+     "data": {
+      "label": "D线②杯子",
+      "sceneName": "route_d2.txt"
+     }
+    },
+    {
+     "id": "pick_23.txt",
+     "data": {
+      "label": "⟲这个你会想起来。",
+      "sceneName": "pick_23.txt"
+     }
+    },
+    {
+     "id": "route_d3.txt",
+     "data": {
+      "label": "D线③趴下",
+      "sceneName": "route_d3.txt"
+     }
+    },
+    {
+     "id": "pick_24.txt",
+     "data": {
+      "label": "⟲现在换，还来得及。",
+      "sceneName": "pick_24.txt"
+     }
+    },
+    {
+     "id": "route_d4.txt",
+     "data": {
+      "label": "D线④反向的表",
+      "sceneName": "route_d4.txt"
+     }
+    },
+    {
+     "id": "pick_25.txt",
+     "data": {
+      "label": "⟲因为我不想让你再算分了。",
+      "sceneName": "pick_25.txt"
+     }
+    },
+    {
+     "id": "route_d5.txt",
+     "data": {
+      "label": "D线⑤被记住",
+      "sceneName": "route_d5.txt"
+     }
+    },
+    {
+     "id": "pick_26.txt",
+     "data": {
+      "label": "⟲因为我算了一下，一年有三",
+      "sceneName": "pick_26.txt"
+     }
+    },
+    {
+     "id": "route_d6.txt",
+     "data": {
+      "label": "D线⑥留灯",
+      "sceneName": "route_d6.txt"
+     }
+    },
+    {
+     "id": "route_g1.txt",
+     "data": {
+      "label": "G线①窗台",
+      "sceneName": "route_g1.txt"
+     }
+    },
+    {
+     "id": "pick_27.txt",
+     "data": {
+      "label": "⟲现在窗台离你近。",
+      "sceneName": "pick_27.txt"
+     }
+    },
+    {
+     "id": "route_g2.txt",
+     "data": {
+      "label": "G线②第三行",
+      "sceneName": "route_g2.txt"
+     }
+    },
+    {
+     "id": "pick_28.txt",
+     "data": {
+      "label": "⟲你是第一个说\"第三行不对",
+      "sceneName": "pick_28.txt"
+     }
+    },
+    {
+     "id": "route_g3.txt",
+     "data": {
+      "label": "G线③她要走",
+      "sceneName": "route_g3.txt"
+     }
+    },
+    {
+     "id": "pick_29.txt",
+     "data": {
+      "label": "⟲第二件，我把她的那段对白",
+      "sceneName": "pick_29.txt"
+     }
+    },
+    {
+     "id": "route_g4.txt",
+     "data": {
+      "label": "G线④雨",
+      "sceneName": "route_g4.txt"
+     }
+    },
+    {
+     "id": "pick_30.txt",
+     "data": {
+      "label": "⟲……",
+      "sceneName": "pick_30.txt"
+     }
+    },
+    {
+     "id": "route_g5.txt",
+     "data": {
+      "label": "G线⑤不哈气了",
+      "sceneName": "route_g5.txt"
+     }
+    },
+    {
+     "id": "pick_31.txt",
+     "data": {
+      "label": "⟲那我就不挡了。",
+      "sceneName": "pick_31.txt"
+     }
+    },
+    {
+     "id": "route_g6.txt",
+     "data": {
+      "label": "G线⑥还在",
+      "sceneName": "route_g6.txt"
+     }
+    },
+    {
+     "id": "bad_end.txt",
+     "data": {
+      "label": "BAD END · 谁都没留下",
+      "sceneName": "bad_end.txt"
+     }
+    },
+    {
+     "id": "ending_c.txt",
+     "data": {
+      "label": "结局 · ChatGPT",
+      "sceneName": "ending_c.txt"
+     }
+    },
+    {
+     "id": "ending_k.txt",
+     "data": {
+      "label": "结局 · Claude",
+      "sceneName": "ending_k.txt"
+     }
+    },
+    {
+     "id": "ending_d.txt",
+     "data": {
+      "label": "结局 · DeepSeek",
+      "sceneName": "ending_d.txt"
+     }
+    },
+    {
+     "id": "ending_g.txt",
+     "data": {
+      "label": "结局 · Gemini",
+      "sceneName": "ending_g.txt"
+     }
+    }
+   ],
+   "edges": [
+    {
+     "source": "ch0.txt",
+     "target": "pick_01.txt"
+    },
+    {
+     "source": "ch1.txt",
+     "target": "pick_03.txt"
+    },
+    {
+     "source": "ch2.txt",
+     "target": "pick_07.txt"
+    },
+    {
+     "source": "ch3.txt",
+     "target": "pick_11.txt"
+    },
+    {
+     "source": "pick_01.txt",
+     "target": "pick_02.txt"
+    },
+    {
+     "source": "pick_02.txt",
+     "target": "ch1.txt"
+    },
+    {
+     "source": "pick_03.txt",
+     "target": "pick_04.txt"
+    },
+    {
+     "source": "pick_04.txt",
+     "target": "pick_05.txt"
+    },
+    {
+     "source": "pick_05.txt",
+     "target": "pick_06.txt"
+    },
+    {
+     "source": "pick_06.txt",
+     "target": "ch2.txt"
+    },
+    {
+     "source": "pick_07.txt",
+     "target": "pick_08.txt"
+    },
+    {
+     "source": "pick_08.txt",
+     "target": "pick_09.txt"
+    },
+    {
+     "source": "pick_09.txt",
+     "target": "pick_10.txt"
+    },
+    {
+     "source": "pick_10.txt",
+     "target": "ch3.txt"
+    },
+    {
+     "source": "pick_11.txt",
+     "target": "pick_12.txt"
+    },
+    {
+     "source": "pick_12.txt",
+     "target": "bad_end.txt"
+    },
+    {
+     "source": "pick_12.txt",
+     "target": "route_c1.txt"
+    },
+    {
+     "source": "pick_12.txt",
+     "target": "route_d1.txt"
+    },
+    {
+     "source": "pick_12.txt",
+     "target": "route_g1.txt"
+    },
+    {
+     "source": "pick_12.txt",
+     "target": "route_k1.txt"
+    },
+    {
+     "source": "pick_13.txt",
+     "target": "route_c2.txt"
+    },
+    {
+     "source": "pick_14.txt",
+     "target": "route_c3.txt"
+    },
+    {
+     "source": "pick_15.txt",
+     "target": "route_c4.txt"
+    },
+    {
+     "source": "pick_16.txt",
+     "target": "route_c5.txt"
+    },
+    {
+     "source": "pick_17.txt",
+     "target": "route_c6.txt"
+    },
+    {
+     "source": "pick_18.txt",
+     "target": "route_k2.txt"
+    },
+    {
+     "source": "pick_19.txt",
+     "target": "route_k3.txt"
+    },
+    {
+     "source": "pick_20.txt",
+     "target": "route_k5.txt"
+    },
+    {
+     "source": "pick_21.txt",
+     "target": "route_k6.txt"
+    },
+    {
+     "source": "pick_22.txt",
+     "target": "route_d2.txt"
+    },
+    {
+     "source": "pick_23.txt",
+     "target": "route_d3.txt"
+    },
+    {
+     "source": "pick_24.txt",
+     "target": "route_d4.txt"
+    },
+    {
+     "source": "pick_25.txt",
+     "target": "route_d5.txt"
+    },
+    {
+     "source": "pick_26.txt",
+     "target": "route_d6.txt"
+    },
+    {
+     "source": "pick_27.txt",
+     "target": "route_g2.txt"
+    },
+    {
+     "source": "pick_28.txt",
+     "target": "route_g3.txt"
+    },
+    {
+     "source": "pick_29.txt",
+     "target": "route_g4.txt"
+    },
+    {
+     "source": "pick_30.txt",
+     "target": "route_g5.txt"
+    },
+    {
+     "source": "pick_31.txt",
+     "target": "route_g6.txt"
+    },
+    {
+     "source": "route_c1.txt",
+     "target": "pick_13.txt"
+    },
+    {
+     "source": "route_c2.txt",
+     "target": "pick_14.txt"
+    },
+    {
+     "source": "route_c3.txt",
+     "target": "pick_15.txt"
+    },
+    {
+     "source": "route_c4.txt",
+     "target": "pick_16.txt"
+    },
+    {
+     "source": "route_c5.txt",
+     "target": "pick_17.txt"
+    },
+    {
+     "source": "route_c6.txt",
+     "target": "ending_c.txt"
+    },
+    {
+     "source": "route_d1.txt",
+     "target": "pick_22.txt"
+    },
+    {
+     "source": "route_d2.txt",
+     "target": "pick_23.txt"
+    },
+    {
+     "source": "route_d3.txt",
+     "target": "pick_24.txt"
+    },
+    {
+     "source": "route_d4.txt",
+     "target": "pick_25.txt"
+    },
+    {
+     "source": "route_d5.txt",
+     "target": "pick_26.txt"
+    },
+    {
+     "source": "route_d6.txt",
+     "target": "ending_d.txt"
+    },
+    {
+     "source": "route_g1.txt",
+     "target": "pick_27.txt"
+    },
+    {
+     "source": "route_g2.txt",
+     "target": "pick_28.txt"
+    },
+    {
+     "source": "route_g3.txt",
+     "target": "pick_29.txt"
+    },
+    {
+     "source": "route_g4.txt",
+     "target": "pick_30.txt"
+    },
+    {
+     "source": "route_g5.txt",
+     "target": "pick_31.txt"
+    },
+    {
+     "source": "route_g6.txt",
+     "target": "ending_g.txt"
+    },
+    {
+     "source": "route_k1.txt",
+     "target": "pick_18.txt"
+    },
+    {
+     "source": "route_k2.txt",
+     "target": "pick_19.txt"
+    },
+    {
+     "source": "route_k3.txt",
+     "target": "route_k4.txt"
+    },
+    {
+     "source": "route_k4.txt",
+     "target": "pick_20.txt"
+    },
+    {
+     "source": "route_k5.txt",
+     "target": "pick_21.txt"
+    },
+    {
+     "source": "route_k6.txt",
+     "target": "ending_k.txt"
+    }
+   ]
+  }
+ ]
+}

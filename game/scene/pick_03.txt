@@ -1,0 +1,17 @@
+大的那个推给了我。 -clear;
+choose:「你把大的给我了。」:pick_03_c3_a|「谁教你这么算的？」（语气重）:pick_03_c3_b|假装没看见，把小的那个端过来:pick_03_c3_c;
+;
+label:pick_03_c3_a;
+setVar:aff_deepseek=aff_deepseek+3;
+jumpLabel:pick_03_c3_after;
+;
+label:pick_03_c3_b;
+setVar:aff_claude=aff_claude+2;
+setVar:aff_deepseek=aff_deepseek+1;
+jumpLabel:pick_03_c3_after;
+;
+label:pick_03_c3_c;
+setVar:aff_deepseek=aff_deepseek+2;
+;
+label:pick_03_c3_after;
+changeScene:ch1_p3.txt;

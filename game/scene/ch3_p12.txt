@@ -1,0 +1,52 @@
+changeFigure:claude/06_shy_chest.webp -id=cl -next;
+Claude:……你说得对。;
+changeFigure:claude/05_sad_wipe.webp -id=cl -next;
+Claude:我怕的是——;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:没有人会记得我读过。;
+changeFigure:none -id=cl;
+unlockCg:cg_05_last_morning.webp -name=四个人最后一次 -series=共用 -next;
+changeBg:cg_05_last_morning.webp -next;
+　 -clear;
+天亮了。 -clear;
+我把四个人叫到窗边。这是这个房间唯一能看到外面的地方。 -clear;
+我:我想了很久。;
+我:我一直以为，"我全都喜欢"是一种公平。;
+我:其实不是。;
+我:一直不选，就是一直告诉你们，你们四个谁都不值得被单独留下来。;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:哈——;
+changeFigure:gemini/06_shy_hair.webp -id=gm -next;
+Gemini:你终于说出来了。;
+我:所以我要选了。;
+我:而且我要当着你们四个的面说。;
+; ====== 路线结算 ======
+; 平局优先级 claude > gemini > deepseek > chatgpt（加权偏移打破平局）
+setVar:s_chatgpt=aff_chatgpt+0.01;
+setVar:s_deepseek=aff_deepseek+0.02;
+setVar:s_gemini=aff_gemini+0.03;
+setVar:s_claude=aff_claude+0.04;
+setVar:top=s_chatgpt;
+setVar:top=s_deepseek -when=s_deepseek>top;
+setVar:top=s_gemini -when=s_gemini>top;
+setVar:top=s_claude -when=s_claude>top;
+; 剧本原文为全员<6进BAD END，但Claude在四个必加分选项下限恰为6，
+; <6 不可达；此处采用 top<7（等价于全员<=6，即一路避不开任一角色）
+jumpLabel:settle_bad -when=top<7;
+jumpLabel:settle_claude -when=top==s_claude;
+jumpLabel:settle_gemini -when=top==s_gemini;
+jumpLabel:settle_deepseek -when=top==s_deepseek;
+label:settle_chatgpt;
+setVar:trust=0;
+changeScene:route_c1.txt;
+label:settle_claude;
+setVar:trust=0;
+changeScene:route_k1.txt;
+label:settle_gemini;
+setVar:trust=0;
+changeScene:route_g1.txt;
+label:settle_deepseek;
+setVar:trust=0;
+changeScene:route_d1.txt;
+label:settle_bad;
+changeScene:bad_end.txt;

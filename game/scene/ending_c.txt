@@ -1,0 +1,23 @@
+; C6 线结局分歧（trust 阈值 7）
+changeFigure:none -id=ds;
+changeFigure:none -id=gm;
+changeFigure:none -id=ch;
+jumpLabel:c6_true -when=trust>=7;
+label:c6_normal;
+—— NORMAL END ·「最好的回答」—— -clear;
+游戏上线了。她成了你工作流里最稳的那一环。 -clear;
+她依然会在每一句话后面问"这样可以吗"。 -clear;
+你也依然会说"可以"。 -clear;
+两个人都没有再提过那张纸。 -clear;
+但那张纸，被她夹在了白板的最下面一层——一直没扔。 -clear;
+end;
+;
+label:c6_true;
+—— TRUE END ·「不回滚的版本」—— -clear;
+三个月后，游戏上线。制作名单的最后一行写着： -clear;
+「对白协力：ChatGPT（未回滚版）」 -clear;
+她在旁边看了很久，然后说："这个……可以不用改的吧。" -clear;
+你说："不用改。" -clear;
+她说："好。" -clear;
+——那是她第一次，对一个"不完美的答案"说"好"。 -clear;
+end;

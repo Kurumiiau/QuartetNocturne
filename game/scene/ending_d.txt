@@ -1,0 +1,25 @@
+; D6 线结局分歧（trust 阈值 8）
+changeFigure:none -id=ds;
+changeFigure:none -id=gm;
+changeFigure:none -id=cl;
+jumpLabel:d6_true -when=trust>=8;
+label:d6_normal;
+—— NORMAL END ·「十九块」—— -clear;
+你没有再换过杯子。 -clear;
+那个补过的杯子用了很久，白线慢慢变成了灰色。 -clear;
+有一天你问她还记不记得是哪天补的。 -clear;
+她说："不记得了。" -clear;
+然后她补了一句："但我记得是十九块。" -clear;
+——她还是没改掉算账的习惯。你也就没再让她改。 -clear;
+end;
+;
+label:d6_true;
+—— TRUE END ·「第一」—— -clear;
+一年后的十七号，你提前买了面。 -clear;
+你煮的还是糊的。 -clear;
+她一边吃一边说："明年我来。" -clear;
+你说："不行。明年还是我。" -clear;
+她说："那我们两个都煮。" -clear;
+你说："好。" -clear;
+——那张"反向的表"一直贴在冰箱上。第四项的权重，她偷偷改成了 100。 -clear;
+end;

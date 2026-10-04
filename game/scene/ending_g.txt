@@ -1,0 +1,25 @@
+; G6 线结局分歧（trust 阈值 8）
+changeFigure:none -id=gm;
+changeFigure:none -id=cl;
+changeFigure:none -id=ds;
+jumpLabel:g6_true -when=trust>=8;
+label:g6_normal;
+—— NORMAL END ·「窗还是开的」—— -clear;
+你没有关那扇窗。 -clear;
+她也很少再跑出去。 -clear;
+偶尔回来的时候，手里会多一袋关东煮。 -clear;
+你会问："今天怎么了？" -clear;
+她会说："没什么。就是路过。" -clear;
+——你们两个都知道，"路过"是一条很长的路。 -clear;
+end;
+;
+label:g6_true;
+—— TRUE END ·「说很多次」—— -clear;
+一年后，你的游戏上线了。 -clear;
+有人在评论区写：「最后那段独白，像是有个人真的在跟你说话。」 -clear;
+你把这条评论截了图给她看。 -clear;
+她说："哈——" -clear;
+你说："这句是什么意思？" -clear;
+她说："意思是我在。" -clear;
+——那扇窗从此再没开过。但她每天都要去窗台上坐一会儿。 -clear;
+end;

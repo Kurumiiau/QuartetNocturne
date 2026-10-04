@@ -1,0 +1,15 @@
+changeFigure:gemini/01_smile_wave.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:喂。;
+changeFigure:gemini/02_wink_v.webp -id=gm -next;
+Gemini:关东煮。;
+changeFigure:gemini/06_shy_hair.webp -id=gm -next;
+Gemini:请我吃。;
+changeFigure:gemini/05_sad_wipe.webp -id=gm -next;
+Gemini:……这样我就有理由跟你回去了。;
+changeFigure:none -id=gm;
+unlockCg:cg_g4_store_awning.webp -name=便利店的屋檐 -series=Gemini 线 -next;
+changeBg:cg_g4_store_awning.webp -next;
+　 -clear;
+changeScene:route_g5.txt;

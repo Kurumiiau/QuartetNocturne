@@ -1,0 +1,16 @@
+DeepSeek:这个我记性很好。;
+choose:「那再记一条：我不想你每次都算。」:pick_22_c22_a|「以后你煮面，自己先吃。」:pick_22_c22_b|把大的那碗推回去:pick_22_c22_c;
+;
+label:pick_22_c22_a;
+setVar:trust=trust+2;
+jumpLabel:pick_22_c22_after;
+;
+label:pick_22_c22_b;
+setVar:trust=trust+2;
+jumpLabel:pick_22_c22_after;
+;
+label:pick_22_c22_c;
+setVar:trust=trust+3;
+;
+label:pick_22_c22_after;
+changeScene:route_d1_p22.txt;

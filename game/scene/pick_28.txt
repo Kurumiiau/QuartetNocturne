@@ -1,0 +1,16 @@
+Gemini:你是第一个说"第三行不对"的。;
+choose:「因为第三行确实不对。」:pick_28_c28_a|「因为我想让它更好。」:pick_28_c28_b|「写得挺好。」（故意逗她）:pick_28_c28_c;
+;
+label:pick_28_c28_a;
+setVar:trust=trust+2;
+jumpLabel:pick_28_c28_after;
+;
+label:pick_28_c28_b;
+setVar:trust=trust+2;
+jumpLabel:pick_28_c28_after;
+;
+label:pick_28_c28_c;
+setVar:trust=trust+3;
+;
+label:pick_28_c28_after;
+changeScene:route_g2_p28.txt;

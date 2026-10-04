@@ -1,0 +1,18 @@
+; 4K-2 · 读给你听
+changeBg:bg_bookshelf.webp -next;
+那天下午，她说想读一段给我听。 -clear;
+changeFigure:claude/02_happy_book.webp -id=cl -next;
+Claude:第 147 页。;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:就是你停下来的那一页。;
+她读了。 -clear;
+读得很慢，偶尔停下来，像是在等什么。 -clear;
+Claude:"……玩家并不是因为奖励而留下。玩家是因为相信这个世界会记得他来过，才留下的。";
+changeFigure:claude/07_thinking_cheek.webp -id=cl -next;
+Claude:……;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:你当初就是在这里停下来的吧。;
+我:……是。;
+changeFigure:claude/07_thinking_cheek.webp -id=cl -next;
+Claude:为什么？;
+changeScene:pick_19.txt;

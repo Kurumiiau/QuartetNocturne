@@ -1,0 +1,11 @@
+changeFigure:claude/06_shy_chest.webp -id=cl -next;
+Claude:……;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:我不在书架上。;
+changeFigure:claude/05_sad_wipe.webp -id=cl -next;
+Claude:我在借阅记录里。;
+changeFigure:none -id=cl;
+unlockCg:cg_k1_shelf_afternoon.webp -name=书架前的午后 -series=Claude 线 -next;
+changeBg:cg_k1_shelf_afternoon.webp -next;
+　 -clear;
+changeScene:route_k2.txt;

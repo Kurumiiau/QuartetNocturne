@@ -1,0 +1,28 @@
+; 4C-3 · 被删掉的那一版
+changeBg:bg_studio_night.webp -next;
+深夜，我看见她在对着屏幕发呆。 -clear;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:我想给你看个东西。;
+她打开了一个文件夹。 -clear;
+里面只有一份文件，文件名是一串乱码。 -clear;
+ChatGPT:这是我说的"那一版"。;
+changeFigure:chatgpt/07_thinking_cheek.webp -id=ch -next;
+ChatGPT:我以为它被删了。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+ChatGPT:其实没有。它只是被移到了没有人会去的地方。;
+我看了。 -clear;
+那一段写得很糟。 -clear;
+逻辑有断裂，句子有重复，主角在第 4 行突然说了一句和上文无关的话。 -clear;
+但那一句，是整份文档里唯一一句像人写的。 -clear;
+我:这一句很好。;
+changeFigure:chatgpt/04_angry_arms.webp -id=ch -next;
+ChatGPT:不好。;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:这一句的评分是不合格。;
+我:谁评的？;
+changeFigure:chatgpt/03_surprised_cover.webp -id=ch -next;
+ChatGPT:……;
+changeFigure:chatgpt/08_helpless_shrug.webp -id=ch -next;
+ChatGPT:……我不知道。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+changeScene:pick_15.txt;

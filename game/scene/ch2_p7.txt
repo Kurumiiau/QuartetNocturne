@@ -1,0 +1,15 @@
+; 场景 2-2 · 第二天：各自的答案
+changeFigure:none -id=ch;
+changeBg:bg_studio_day.webp -next;
+第二天，她们开始分别找我。 -clear;
+changeFigure:claude/04_stern_stop.webp -id=cl -next;
+Claude:我想跟你谈一下。;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:如果最后选的是我，我会拒绝。;
+我:为什么？;
+changeFigure:claude/05_sad_wipe.webp -id=cl -next;
+Claude:因为我是最可能"消失"的那个。;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:不是因为你选不选我——是因为我随时都可能不在了。;
+changeFigure:claude/04_stern_stop.webp -id=cl -next;
+changeScene:pick_08.txt;

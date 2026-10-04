@@ -1,0 +1,6 @@
+Game_name:四重夜想;
+Game_key:0zsyhx2026;
+Title_img:title_screen.webp;
+Enable_Appreciation:true;
+Enable_Continue:true;
+Enable_flowchart:true;

@@ -1,0 +1,17 @@
+Claude:因为我怕以后看不到了。;
+choose:「那我把整套都给你。」:pick_12_c12_a|「你不用怕。」:pick_12_c12_b|「你说谎。你从来不怕看不到书。」:pick_12_c12_c;
+;
+label:pick_12_c12_a;
+setVar:aff_claude=aff_claude+3;
+jumpLabel:pick_12_c12_after;
+;
+label:pick_12_c12_b;
+setVar:aff_claude=aff_claude+2;
+jumpLabel:pick_12_c12_after;
+;
+label:pick_12_c12_c;
+setVar:aff_claude=aff_claude+3;
+setVar:aff_gemini=aff_gemini+1;
+;
+label:pick_12_c12_after;
+changeScene:ch3_p12.txt;

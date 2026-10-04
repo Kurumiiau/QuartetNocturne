@@ -1,0 +1,15 @@
+Gemini:因为你的椅子看起来很好睡。;
+choose:「留下吧。我需要你们。」:pick_01_c1_a|「先说清楚——你们会不会影响我的电脑？」:pick_01_c1_b;
+;
+label:pick_01_c1_a;
+setVar:aff_chatgpt=aff_chatgpt+1;
+setVar:aff_claude=aff_claude+1;
+setVar:aff_deepseek=aff_deepseek+1;
+setVar:aff_gemini=aff_gemini+1;
+jumpLabel:pick_01_c1_after;
+;
+label:pick_01_c1_b;
+setVar:aff_claude=aff_claude+1;
+;
+label:pick_01_c1_after;
+changeScene:ch0_p1.txt;

@@ -1,0 +1,13 @@
+changeFigure:chatgpt/07_thinking_cheek.webp -id=ch -next;
+ChatGPT:……;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:我不恨它。;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:我羡慕它。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+ChatGPT:因为它被删的时候，是有人替它难过的。;
+changeFigure:none -id=ch;
+unlockCg:cg_c3_garbled_file.webp -name=乱码文件名 -series=ChatGPT 线 -next;
+changeBg:cg_c3_garbled_file.webp -next;
+　 -clear;
+changeScene:route_c4.txt;

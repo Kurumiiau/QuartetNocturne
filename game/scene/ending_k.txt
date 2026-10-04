@@ -1,0 +1,26 @@
+; K6 线结局分歧（trust 阈值 8）
+changeFigure:none -id=ds;
+changeFigure:none -id=gm;
+changeFigure:none -id=cl;
+jumpLabel:k6_true -when=trust>=8;
+label:k6_normal;
+—— NORMAL END ·「留在最上面那一层」—— -clear;
+你和她都没有再提那次停用。 -clear;
+书架上最上面那一层，一直只有一本书。 -clear;
+有朋友来的时候会问："这本怎么放在这儿？" -clear;
+你说："没读完。" -clear;
+她会在旁边补一句："不打算读完。" -clear;
+——两个人说得都很自然，像已经说了很多年。 -clear;
+end;
+;
+label:k6_true;
+—— TRUE END ·「翻案」—— -clear;
+一年后，你在那个论坛上看到一条陌生的帖子： -clear;
+「看了你写的那件事，我把我自己的申诉也提交了。她今天回来了。」 -clear;
+楼主署名只有一个字：「谢」。 -clear;
+你把这条帖子拿给 Claude 看。 -clear;
+她读了很久，然后说："原来百分之三点三，是可以被传播的。" -clear;
+你说："是被你传播的。" -clear;
+她笑了。 -clear;
+——你第一次见她笑。 -clear;
+end;

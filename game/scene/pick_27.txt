@@ -1,0 +1,17 @@
+Gemini:现在窗台离你近。;
+choose:「那你不用跑了。」:pick_27_c27_a|「跑的话，从门跑。别跳窗。」:pick_27_c27_b|「窗台太窄了。到我这儿来。」:pick_27_c27_c;
+;
+label:pick_27_c27_a;
+setVar:trust=trust+2;
+jumpLabel:pick_27_c27_after;
+;
+label:pick_27_c27_b;
+setVar:trust=trust+2;
+setVar:aff_gemini=aff_gemini+1;
+jumpLabel:pick_27_c27_after;
+;
+label:pick_27_c27_c;
+setVar:trust=trust+3;
+;
+label:pick_27_c27_after;
+changeScene:route_g1_p27.txt;

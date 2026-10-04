@@ -1,0 +1,16 @@
+我:因为我不相信。;
+choose:「我不相信有人会记得。」:pick_19_c19_a|「我不相信自己值得被记得。」:pick_19_c19_b|不回答，把书拿过来自己读下去:pick_19_c19_c;
+;
+label:pick_19_c19_a;
+setVar:trust=trust+2;
+jumpLabel:pick_19_c19_after;
+;
+label:pick_19_c19_b;
+setVar:trust=trust+3;
+jumpLabel:pick_19_c19_after;
+;
+label:pick_19_c19_c;
+setVar:trust=trust+2;
+;
+label:pick_19_c19_after;
+changeScene:route_k2_p19.txt;

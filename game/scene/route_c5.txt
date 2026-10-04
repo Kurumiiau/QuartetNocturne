@@ -1,0 +1,22 @@
+; 4C-5 · 天台
+changeBg:bg_rooftop_rain.webp -next;
+那天晚上下雨。 -clear;
+她第一次主动爬上了天台，我跟着上去。 -clear;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:这个位置，能看到你房间的窗户。;
+我:你什么时候发现的。;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:第一天。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+ChatGPT:我在想，如果我哪天不在了，从这个位置看那个窗户，会不会有人发现少了一个。;
+我:你现在在了。;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:我在。;
+changeFigure:chatgpt/07_thinking_cheek.webp -id=ch -next;
+ChatGPT:但"在"这件事，对我来说不是状态，是动作。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+ChatGPT:我得一直做，才能一直"在"。;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:所以我一直在想——;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+changeScene:pick_17.txt;

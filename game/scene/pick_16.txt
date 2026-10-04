@@ -1,0 +1,16 @@
+我:你刚才那句话，是你第一次跟我说真话。;
+choose:「以后都这样跟我说。」:pick_16_c16_a|「你可以说更多'不'。」:pick_16_c16_b|把她的稿子删掉，说"重写":pick_16_c16_c;
+;
+label:pick_16_c16_a;
+setVar:trust=trust+2;
+jumpLabel:pick_16_c16_after;
+;
+label:pick_16_c16_b;
+setVar:trust=trust+2;
+jumpLabel:pick_16_c16_after;
+;
+label:pick_16_c16_c;
+setVar:trust=trust+3;
+;
+label:pick_16_c16_after;
+changeScene:route_c4_p16.txt;

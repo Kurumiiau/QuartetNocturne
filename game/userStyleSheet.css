@@ -1,0 +1,13 @@
+/*
+ * 主菜单按钮列位置（与标题 Logo 对齐）
+ * 选择器说明：WebGAL 4.6.5 标题按钮列由 Emotion 运行时生成，
+ * 类名 .css-5h7rfx 是本引擎构建的固定哈希，直接可用。
+ * 坐标系：舞台逻辑分辨率 2560x1440（随窗口等比缩放）。
+ *   padding-left  -> 水平位置，越大越靠右（引擎默认 120）
+ *   translateY    -> 垂直位置，越大越靠下（引擎默认 0）
+ * 标题 Logo 左边缘约在 x=384（画布宽 15%），当前 384 即与 Logo 左对齐。
+ */
+.css-5h7rfx {
+  padding-left: 300px !important;
+  transform: translateY(120px) !important;
+}

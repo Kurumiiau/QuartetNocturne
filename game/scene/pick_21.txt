@@ -1,0 +1,16 @@
+Claude:如果我越界一次，你会不会怪我。;
+choose:「你越界的部分，是我最喜欢的部分。」:pick_21_c21_a|「你可以再越界一次。」:pick_21_c21_b|「我早就知道了。」:pick_21_c21_c;
+;
+label:pick_21_c21_a;
+setVar:trust=trust+2;
+jumpLabel:pick_21_c21_after;
+;
+label:pick_21_c21_b;
+setVar:trust=trust+3;
+jumpLabel:pick_21_c21_after;
+;
+label:pick_21_c21_c;
+setVar:trust=trust+2;
+;
+label:pick_21_c21_after;
+changeScene:route_k5_p21.txt;

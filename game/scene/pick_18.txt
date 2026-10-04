@@ -1,0 +1,17 @@
+Claude:……因为读完的，你会忘。;
+choose:「那你呢？你排在哪一层？」:pick_18_c18_a|「我不会忘。」:pick_18_c18_b|「那就别读完。慢慢读。」:pick_18_c18_c;
+;
+label:pick_18_c18_a;
+setVar:trust=trust+2;
+jumpLabel:pick_18_c18_after;
+;
+label:pick_18_c18_b;
+setVar:trust=trust+1;
+jumpLabel:pick_18_c18_after;
+;
+label:pick_18_c18_c;
+setVar:trust=trust+2;
+setVar:aff_claude=aff_claude+1;
+;
+label:pick_18_c18_after;
+changeScene:route_k1_p18.txt;

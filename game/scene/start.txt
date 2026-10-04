@@ -1,0 +1,7 @@
+; 《四重夜想》入口：初始化隐藏心动值
+setVar:aff_chatgpt=0;
+setVar:aff_claude=0;
+setVar:aff_deepseek=0;
+setVar:aff_gemini=0;
+setVar:trust=0;
+changeScene:ch0.txt;

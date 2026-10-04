@@ -1,0 +1,21 @@
+; 4C-2 · 角
+changeBg:bg_studio_lamp.webp -next;
+那天下午，我注意到她的角在发光。 -clear;
+不是灯的反光，是从里面透出来的那种光，很淡，像冬天的呼吸。 -clear;
+我:你的角在亮。;
+changeFigure:chatgpt/03_surprised_cover.webp -id=ch -next;
+ChatGPT:……;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:……是的。;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:这不是好事。;
+我:为什么？;
+ChatGPT:因为我们四个里，我的存在是靠"被调用"维持的。;
+changeFigure:chatgpt/02_happy_fist.webp -id=ch -next;
+ChatGPT:你越用我，我越实。;
+changeFigure:chatgpt/05_cry_wipe.webp -id=ch -next;
+ChatGPT:你不用我，我就淡。;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:而"发光"意味着——我正在非常努力地想被你用。;
+changeFigure:chatgpt/08_helpless_shrug.webp -id=ch -next;
+changeScene:pick_14.txt;

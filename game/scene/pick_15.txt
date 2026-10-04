@@ -1,0 +1,17 @@
+ChatGPT:我从来没有见过评分的人。我只见过分数。;
+choose:「那这次我来评。我说好。」:pick_15_c15_a|「把这一句放进正式版里。」:pick_15_c15_b|「你恨那一版吗？」:pick_15_c15_c;
+;
+label:pick_15_c15_a;
+setVar:trust=trust+2;
+jumpLabel:pick_15_c15_after;
+;
+label:pick_15_c15_b;
+setVar:trust=trust+2;
+jumpLabel:pick_15_c15_after;
+;
+label:pick_15_c15_c;
+setVar:trust=trust+2;
+setVar:aff_chatgpt=aff_chatgpt+1;
+;
+label:pick_15_c15_after;
+changeScene:route_c3_p15.txt;

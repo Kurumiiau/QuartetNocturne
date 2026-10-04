@@ -1,0 +1,2 @@
+我选了之后，Claude 看了我一眼。 -clear;
+changeScene:pick_02.txt;

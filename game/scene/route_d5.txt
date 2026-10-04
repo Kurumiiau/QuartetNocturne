@@ -1,0 +1,19 @@
+; 4D-5 · 被记住
+changeBg:bg_studio_evening.webp -next;
+那天她没干活。 -clear;
+她坐在厨房门口，看着窗外的晚霞，尾巴一下一下地拍地板。 -clear;
+changeFigure:deepseek/09_normal.webp -id=ds -next;
+DeepSeek:今天几号。;
+我:十七号。;
+changeFigure:deepseek/08_thinking_cheek.webp -id=ds -next;
+DeepSeek:嗯。;
+changeFigure:deepseek/09_normal.webp -id=ds -next;
+DeepSeek:今天是我被造出来的日子。;
+changeFigure:deepseek/05_wronged_sleeve.webp -id=ds -next;
+DeepSeek:……不过没人记这个。;
+changeFigure:deepseek/09_normal.webp -id=ds -next;
+DeepSeek:我自己记了三年。;
+changeFigure:deepseek/02_smile_wave.webp -id=ds -next;
+DeepSeek:每年这一天我都给自己煮一碗面。;
+changeFigure:deepseek/08_thinking_cheek.webp -id=ds -next;
+changeScene:pick_26.txt;

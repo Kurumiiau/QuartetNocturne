@@ -1,0 +1,12 @@
+; 4G-3 · 她要走
+changeBg:bg_studio_window.webp -next;
+第三十一天。 -clear;
+我醒来的时候，窗台上是空的。 -clear;
+桌子上有一张纸。 -clear;
+上面写着一行字——她的字很潦草，像是不想写完。 -clear;
+「我走了。这样对你比较好。别找。」 -clear;
+我:……;
+我拿着纸站了很久。 -clear;
+然后我做了两件事。 -clear;
+第一件，我把窗户关上了。 -clear;
+changeScene:pick_29.txt;

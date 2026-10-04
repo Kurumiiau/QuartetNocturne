@@ -1,0 +1,16 @@
+我:因为我不想让你再算分了。;
+choose:「你只要在就行。」:pick_25_c25_a|「从今天起，你不要再给自己打分。」:pick_25_c25_b|「你要是想算，可以算我的分。」:pick_25_c25_c;
+;
+label:pick_25_c25_a;
+setVar:trust=trust+2;
+jumpLabel:pick_25_c25_after;
+;
+label:pick_25_c25_b;
+setVar:trust=trust+3;
+jumpLabel:pick_25_c25_after;
+;
+label:pick_25_c25_c;
+setVar:trust=trust+3;
+;
+label:pick_25_c25_after;
+changeScene:route_d4_p25.txt;

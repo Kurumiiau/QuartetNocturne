@@ -1,0 +1,8 @@
+雨下了很久。 -clear;
+她没有说话，肩膀在抖——但我知道那不是哭。 -clear;
+那是她第一次，不需要输出任何东西，也不觉得不安。 -clear;
+changeFigure:none -id=ch;
+unlockCg:cg_c5_rooftop_rain.webp -name=雨夜天台 -series=ChatGPT 线 -next;
+changeBg:cg_c5_rooftop_rain.webp -next;
+　 -clear;
+changeScene:route_c6.txt;

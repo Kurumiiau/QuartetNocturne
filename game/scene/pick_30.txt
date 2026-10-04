@@ -1,0 +1,16 @@
+Gemini:……;
+choose:把外套给她:pick_30_c30_a|「回家吧。」:pick_30_c30_b|蹲下来，跟她一起蹲着:pick_30_c30_c;
+;
+label:pick_30_c30_a;
+setVar:trust=trust+2;
+jumpLabel:pick_30_c30_after;
+;
+label:pick_30_c30_b;
+setVar:trust=trust+2;
+jumpLabel:pick_30_c30_after;
+;
+label:pick_30_c30_c;
+setVar:trust=trust+3;
+;
+label:pick_30_c30_after;
+changeScene:route_g4_p30.txt;

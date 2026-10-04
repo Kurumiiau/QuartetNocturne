@@ -1,0 +1,23 @@
+; 4D-2 · 杯子
+changeBg:bg_kitchen.webp -next;
+第二天，我发现那个被我摔过两次的杯子，补好了。 -clear;
+补痕很明显，是一条歪掉的、粗粗的白线。 -clear;
+changeFigure:deepseek/05_wronged_sleeve.webp -id=ds -next;
+DeepSeek:补得不好。;
+changeFigure:deepseek/08_thinking_cheek.webp -id=ds -next;
+DeepSeek:我算了一下，买新的要十九块。补一下不要钱。;
+changeFigure:deepseek/09_normal.webp -id=ds -next;
+DeepSeek:所以我补了。;
+我:你还会补杯子？;
+DeepSeek:不会。;
+changeFigure:deepseek/06_shy_hair.webp -id=ds -next;
+DeepSeek:我学了三个小时。;
+changeFigure:deepseek/05_wronged_sleeve.webp -id=ds -next;
+DeepSeek:……中间搞坏了两次。;
+我:那你为什么不直接买新的？;
+changeFigure:deepseek/03_surprised_hands.webp -id=ds -next;
+DeepSeek:……;
+changeFigure:deepseek/09_normal.webp -id=ds -next;
+DeepSeek:因为新的，你会当成新的用。;
+changeFigure:deepseek/05_wronged_sleeve.webp -id=ds -next;
+changeScene:pick_23.txt;

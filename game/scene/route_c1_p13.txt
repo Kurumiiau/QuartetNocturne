@@ -1,0 +1,11 @@
+changeFigure:chatgpt/07_thinking_cheek.webp -id=ch -next;
+ChatGPT:……;
+changeFigure:chatgpt/09_normal.webp -id=ch -next;
+ChatGPT:我想做的东西是——;
+changeFigure:chatgpt/06_shy_sleeve.webp -id=ch -next;
+ChatGPT:一个不会被回滚的版本。;
+changeFigure:none -id=ch;
+unlockCg:cg_c1_whiteboard.webp -name=深夜的白板 -series=ChatGPT 线 -next;
+changeBg:cg_c1_whiteboard.webp -next;
+　 -clear;
+changeScene:route_c2.txt;

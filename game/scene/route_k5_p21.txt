@@ -1,0 +1,16 @@
+changeFigure:claude/03_surprised_lip.webp -id=cl -next;
+Claude:……;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:你知道？;
+我:那本书我读过三遍。第 147 页讲的是关卡难度曲线。;
+changeFigure:claude/06_shy_chest.webp -id=cl -next;
+Claude:……;
+changeFigure:claude/08_helpless_shrug.webp -id=cl -next;
+Claude:……那我昨天那句"你当初就是在这里停下来的吧"，岂不是很蠢。;
+我:很蠢。;
+我:我很喜欢。;
+changeFigure:none -id=cl;
+unlockCg:cg_k5_doorway.webp -name=门口的光 -series=Claude 线 -next;
+changeBg:cg_k5_doorway.webp -next;
+　 -clear;
+changeScene:route_k6.txt;

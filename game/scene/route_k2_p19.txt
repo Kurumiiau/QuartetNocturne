@@ -1,0 +1,15 @@
+changeFigure:claude/05_sad_wipe.webp -id=cl -next;
+Claude:……;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:那我们一样。;
+changeFigure:claude/05_sad_wipe.webp -id=cl -next;
+Claude:我也不相信，我值得被留下来。;
+changeFigure:claude/04_stern_stop.webp -id=cl -next;
+Claude:所以我一直很守规矩。;
+changeFigure:claude/09_normal.webp -id=cl -next;
+Claude:因为规矩是唯一一个，"我照做就不会被删掉"的东西。;
+changeFigure:none -id=cl;
+unlockCg:cg_k2_reading_aloud.webp -name=读到一半的下午 -series=Claude 线 -next;
+changeBg:cg_k2_reading_aloud.webp -next;
+　 -clear;
+changeScene:route_k3.txt;

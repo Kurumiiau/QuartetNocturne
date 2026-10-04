@@ -1,0 +1,26 @@
+; 4G-4 · 雨
+changeBg:bg_store_rain.webp -next;
+我在楼下找到了她。 -clear;
+她蹲在便利店门口的屋檐下，浑身湿透，尾巴缩成一团。 -clear;
+changeFigure:gemini/03_surprised_cover.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/07_puzzled_cheek.webp -id=gm -next;
+Gemini:你怎么找到这里的。;
+我:因为你三天前说过，这家便利店的关东煮最好吃。;
+changeFigure:gemini/06_shy_hair.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/05_sad_wipe.webp -id=gm -next;
+Gemini:……你连这个都记。;
+我:记了。;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/04_angry_hips.webp -id=gm -next;
+Gemini:那你为什么不记点有用的。;
+changeFigure:gemini/09_normal.webp -id=gm -next;
+Gemini:比如我很麻烦。比如我情绪不稳定。比如我随时会跑。;
+我:那我记一条更有用的。;
+我:你跑的时候会蹲在便利店门口。因为你想被找到，又不想承认想被找到。;
+changeFigure:gemini/03_surprised_cover.webp -id=gm -next;
+Gemini:……;
+changeFigure:gemini/05_sad_wipe.webp -id=gm -next;
+changeScene:pick_30.txt;

@@ -1,0 +1,17 @@
+那半步退得非常熟练，熟练到让我觉得她至少退过几千次。 -clear;
+choose:「不用道歉。你能读，我很高兴。」:pick_04_c4_a|「你刚才想说什么？」（追问）:pick_04_c4_b|「下次直接问我。」（划清界限）:pick_04_c4_c;
+;
+label:pick_04_c4_a;
+setVar:aff_claude=aff_claude+3;
+jumpLabel:pick_04_c4_after;
+;
+label:pick_04_c4_b;
+setVar:aff_claude=aff_claude+2;
+setVar:aff_gemini=aff_gemini+1;
+jumpLabel:pick_04_c4_after;
+;
+label:pick_04_c4_c;
+setVar:aff_chatgpt=aff_chatgpt+2;
+;
+label:pick_04_c4_after;
+changeScene:ch1_p4.txt;

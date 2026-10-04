@@ -1,0 +1,16 @@
+Gemini:哈——很公平。公平得像在分蛋糕。;
+choose:「因为我还没想清楚。」（诚实）:pick_05_c5_a|「你希望我选你？」:pick_05_c5_b|「你们又不是只能留一个。」:pick_05_c5_c;
+;
+label:pick_05_c5_a;
+setVar:aff_gemini=aff_gemini+3;
+jumpLabel:pick_05_c5_after;
+;
+label:pick_05_c5_b;
+setVar:aff_gemini=aff_gemini+2;
+setVar:aff_claude=aff_claude+1;
+jumpLabel:pick_05_c5_after;
+;
+label:pick_05_c5_c;
+;
+label:pick_05_c5_after;
+changeScene:ch1_p5.txt;

@@ -1,0 +1,11 @@
+changeFigure:deepseek/08_thinking_cheek.webp -id=ds -next;
+DeepSeek:第一次是胶水放多了。;
+changeFigure:deepseek/01_cry_wipe.webp -id=ds -next;
+DeepSeek:第二次是……我以为你不会要了。;
+changeFigure:deepseek/05_wronged_sleeve.webp -id=ds -next;
+DeepSeek:所以我把手抖了一下。;
+changeFigure:none -id=ds;
+unlockCg:cg_d2_mended_cup.webp -name=补过的杯子 -series=DeepSeek 线 -next;
+changeBg:cg_d2_mended_cup.webp -next;
+　 -clear;
+changeScene:route_d3.txt;

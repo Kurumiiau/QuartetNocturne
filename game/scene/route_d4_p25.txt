@@ -1,0 +1,13 @@
+changeFigure:deepseek/01_cry_wipe.webp -id=ds -next;
+DeepSeek:……;
+changeFigure:deepseek/09_normal.webp -id=ds -next;
+DeepSeek:那我算不了。;
+changeFigure:deepseek/06_shy_hair.webp -id=ds -next;
+DeepSeek:你给我满分了。;
+changeFigure:deepseek/02_smile_wave.webp -id=ds -next;
+DeepSeek:满分的东西不用算。;
+changeFigure:none -id=ds;
+unlockCg:cg_d4_reverse_table.webp -name=反向的表 -series=DeepSeek 线 -next;
+changeBg:cg_d4_reverse_table.webp -next;
+　 -clear;
+changeScene:route_d5.txt;

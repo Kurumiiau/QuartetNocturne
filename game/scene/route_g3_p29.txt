@@ -1,0 +1,5 @@
+我选了之后，天开始下雨。 -clear;
+unlockCg:cg_g3_empty_sill.webp -name=空掉的窗台 -series=Gemini 线 -next;
+changeBg:cg_g3_empty_sill.webp -next;
+　 -clear;
+changeScene:route_g4.txt;
